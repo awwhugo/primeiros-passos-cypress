@@ -1,0 +1,10 @@
+  {
+    "successfulLogin": {
+      "username": "Admin",
+      "password": "admin123"
+    },
+    "failedLogin": {
+      "username": "Teste",
+      "password": "teste123"
+    }
+  }
