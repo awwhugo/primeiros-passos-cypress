@@ -19,6 +19,11 @@ loginWithUser(username, password) {
     cy.get(this.selectorsList().passwordField).type(password)
     cy.get(this.selectorsList().loginButton).click()
 }
+
+checkLoginErrorMessage() {
+    cy.get(this.selectorsList().loginErrorMessage).should('be.visible')
+
 }
 
+}
 export default LoginPage
